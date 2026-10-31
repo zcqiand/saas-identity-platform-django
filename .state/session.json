@@ -1,12 +1,13 @@
 {
   "schema": 1,
   "project": "saas-identity-platform-django",
-  "current_task": "REQ-2026-028 租户首切片（M00.F01 I01-I03）已收官（上一窗口），本窗口无改动；code.idempotent django 分支随之受益",
+  "current_task": "REQ-2026-028 已收官；本窗口完成 5.127① git init + submodule 注册（suite b34d425），strict codegen 转真",
   "done": [
-    "REQ-2026-028 已闭环：14 tests 全绿，L0-L5 绿（前窗完成，本窗仅复核 checker 识别本仓 dry-run PASS）",
-    "本窗唯一触面：suite checker django 分支接线对本仓 dry-run PASS 实证"
+    "REQ-2026-028 已闭环：14 tests 全绿，L0-L5 绿（前窗完成）",
+    "5.127① 收官（2026-11-01）：GitHub 双仓已建（public 同兄弟仓），内仓 master 已推，suite b34d425 登记 gitlink + .gitmodules，strict codegen SKIP→真 PASS（本仓 2 files idempotent），注册后双仓全门复跑 exit 0",
+    ".gitignore 对齐家族口径：session.json/tree-change.applied.json 入库，tree-change.json 不入"
   ],
-  "next": "用户侧 git init + submodule 注册本仓（tracker 5.127①）；CT TARGETS 注册（=5113）前须补 PATCH/DELETE op 或裁部分面（缺 op 会撞 CT I32/I33 红，5.127②）",
+  "next": "CT TARGETS 注册（=5113）前须补 PATCH/DELETE op 或裁部分面（缺 op 会撞 CT I32/I33 红，tracker 5.127②，随 live 里程碑批）；REQ-2026-028/029 编号留人核时注意 suite 20e7eab 已把「REQ-2026-029」用于 saas-angular——取号可能要跳 029",
   "open_questions": [
     "REQ 编号 028 留人核",
     "shared 契约 admin-tenants「绑定初始管理员」@doc 不在契约面，更新须人批"
