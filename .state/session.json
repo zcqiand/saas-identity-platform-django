@@ -7,7 +7,7 @@
     "5.127① 收官（2026-11-01）：GitHub 双仓已建（public 同兄弟仓），内仓 master 已推，suite b34d425 登记 gitlink + .gitmodules，strict codegen SKIP→真 PASS（本仓 2 files idempotent），注册后双仓全门复跑 exit 0",
     ".gitignore 对齐家族口径：session.json/tree-change.applied.json 入库，tree-change.json 不入"
   ],
-  "next": "CT TARGETS 注册（=5113）前须补 PATCH/DELETE op 或裁部分面（缺 op 会撞 CT I32/I33 红，tracker 5.127②，随 live 里程碑批）；REQ-2026-028/029 编号留人核时注意 suite 20e7eab 已把「REQ-2026-029」用于 saas-angular——取号可能要跳 029",
+  "next": "CT TARGETS 注册（=5113）前须补 PATCH/DELETE op 或裁部分面（缺 op 会撞 CT I32/I33 红，tracker 5.127②，随 live 里程碑批）；REQ 取号惯例=主系列全局顺延、动笔前先全家族扫号（029 撞号教训已入 REQ 澄清记录）",
   "open_questions": [
     "REQ 编号 028 留人核",
     "shared 契约 admin-tenants「绑定初始管理员」@doc 不在契约面，更新须人批"
