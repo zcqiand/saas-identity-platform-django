@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "project": "saas-identity-platform-django",
+  "current_task": "REQ-2026-028 租户首切片（M00.F01 I01-I03）已收官（上一窗口），本窗口无改动；code.idempotent django 分支随之受益",
+  "done": [
+    "REQ-2026-028 已闭环：14 tests 全绿，L0-L5 绿（前窗完成，本窗仅复核 checker 识别本仓 dry-run PASS）",
+    "本窗唯一触面：suite checker django 分支接线对本仓 dry-run PASS 实证"
+  ],
+  "next": "用户侧 git init + submodule 注册本仓（tracker 5.127①）；CT TARGETS 注册（=5113）前须补 PATCH/DELETE op 或裁部分面（缺 op 会撞 CT I32/I33 红，5.127②）",
+  "open_questions": [
+    "REQ 编号 028 留人核",
+    "shared 契约 admin-tenants「绑定初始管理员」@doc 不在契约面，更新须人批"
+  ],
+  "dont": [
+    "不要改 .harness/stack.json 让门变松",
+    "不要给 skip 的测试挂功能 ID",
+    "不要 pip install -e .（config 顶层包双仓 sys.path 撞名）；依赖装全局 python",
+    "不要给 src/ 放 __init__.py（只允许仓身份包目录内有）",
+    "家族语义：tenant.status 种子有 3，映射仅 2=suspended 其余 active（KeyError 3 坑）",
+    "分页 0 基（saas 家族语义，与 lab 1-based 刻意分叉）"
+  ],
+  "last_gate_passed_at": "2026-10-31"
+}
