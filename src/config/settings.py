@@ -1,4 +1,4 @@
-"""Django settings —— 身份平台 Django 版（saas-identity-platform-django）。
+"""Django settings —— SaaS 多租户多应用身份平台 Django 版（saas-identity-platform-django）。
 
 fail-fast 纪律（suite-hard-rules §1）：环境变量缺失即崩，禁止默认值兜底。
 dev/test 由仓根 .env.local / .env.test 注入（三件套 key 集合走 L0.5 一致性门），

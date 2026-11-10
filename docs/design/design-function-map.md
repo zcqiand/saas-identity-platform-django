@@ -1,4 +1,4 @@
-# design-function-map — 身份平台 Django 版
+# design-function-map — SaaS 多租户多应用身份平台 Django 版
 
 > 人填、人评审。机器只检查功能 ID 存在性。
 > 回答一个问题：**这个功能子项，落到哪段代码、哪张表、哪个权限码上？**

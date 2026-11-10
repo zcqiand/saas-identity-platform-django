@@ -1,7 +1,7 @@
 [project]
 name = "saas-identity-platform-django"
 version = "0.1.0"
-description = "身份平台 Django 版"
+description = "SaaS 多租户多应用身份平台 Django 版"
 requires-python = ">=3.11"
 dependencies = [
     "Django>=5.0,<6",
